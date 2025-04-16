@@ -1,0 +1,55 @@
+#linkedin-widget {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 280px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 9999;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .widget-header strong {
+    font-size: 1.1rem;
+  }
+  
+  #toggle-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .widget-content {
+    margin-top: 10px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #eee;
+    height: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  
+  .status-tag {
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  
